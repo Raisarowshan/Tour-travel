@@ -367,9 +367,56 @@ margin-left: 550px;
         flex-direction: column;
         width: 330px;
         height: 170px; 
+        margin-bottom:250px;
     }
     .row{
         margin: 20px;
+    }
+    .hotel{
+        flex-direction: column;
+        margin-left:20px;
+        /* margin-top:650px; */
+    }
+    .hotel-1{
+        width: 335px;
+        
+
+    }
+    .hotel-2{
+        width: 335px;
+    }
+    .price{
+        margin-left:20px;
+        width: 335px;
+    }
+    .border{
+        flex-direction: column;
+        margin: 20px;
+        /* width:250px; */
+        /* height: 300px; */
+    }
+    .login-form{
+        width:650px;
+        margin-top:25px ;
+
+    }
+    .end{
+        width:900px;
+        margin-top: 15px;
+        
+    }
+    .social-links{
+        margin-left:150px;
+    }
+    .para{
+        padding:20px 50px;
+        width: 280px;
+    }
+    .foot{
+        margin-left: 50px;
+    }
+    footer{
+        
     }
 }
 
