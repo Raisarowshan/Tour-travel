@@ -6,6 +6,9 @@
     header{
         padding: 0 200px;
     }
+    .icon{
+        display: flex;
+    }
     .home{
     color: #FF5400;
     font-weight: 700;
@@ -15,7 +18,7 @@
     font-size: 36px;
     font-weight: 800;
     /* margin-left: 0px; */
-    margin-right: 60px;
+    /* margin-right: 60px; */
     
     }
     
@@ -81,19 +84,28 @@
     .container section{
     display: inline-flex;
     padding: 16px;
-    align-items: flex-start;
-    gap: 24px;
+    /* align-items: flex-start; */
+    /* gap: 24px; */
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 600px;
+    width: 700px;
     height: 52px;
     /* display: flex; */
     justify-content:space-between;
-    align-items: center;
+    /* align-items: center; */
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
-    margin-top:30px;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
+    /* margin-top:30px; */
+    }
+    .form{
+        width: 170px;
+    }
+    .btn{
+        background: #FF5400;
+        color: #FFF;
+        border: none;
+
     }
     .our{
     color: #131318;
@@ -179,6 +191,39 @@
       margin-right: 120px;
       /* display: grid; */
     }
+    .simple-title{
+        color: #131318;
+       font-size: 40px;
+       font-weight: 800;
+       width: 450px;
+       /* height: 150px; */
+       /* margin: 40px; */
+       }
+       .simple-description{
+           color: #5A5A5D;
+       font-size: 16px;
+       font-weight: 400;
+       width: 530px;
+       }
+       .lost{
+           color: #131318;
+       font-size: 16px;
+       font-weight: 700;
+       width:520px;
+       /* height: 50px; */
+       
+       }
+       .simple{
+           display: flex;
+           margin-top: 50px;
+           margin-left: 130px;
+           align-items: center;
+       }
+       .simple img{
+           margin-left: 100px;
+           height: 450px;
+       }
+
     .hotel{
         display: flex;
         gap: 25px;
@@ -321,7 +366,7 @@ margin-left: 550px;
     display: none;
 }
 @media screen and (max-width:576px) {
-    header{
+    /* header{
         padding: 0px 100px;
     }
     nav{
@@ -329,9 +374,37 @@ margin-left: 550px;
     }
     .container-text{
        padding: 0 100px;
-       font-size: ;
-    }
-    .popular{
+       font-size: ; */
+ header{
+    margin-left:-170px;
+ }
+     nav ul{
+        display: none;
+     }
+     
+     .container{
+        width:700px;
+        height: 500px;
+     }
+ .container-text{
+    padding: 20px;
+ }
+ .container section{
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    width: 500px;
+    height: 100px;
+    /* margin-left: 20px; */
+ }
+ .container p{
+   width:600px;
+ }
+ .form{
+    width:70%;
+ }
+ 
+ .popular{
         flex-direction: column;
         width:300px;
         margin-left:0px;
@@ -371,6 +444,15 @@ margin-left: 550px;
     }
     .row{
         margin: 20px;
+    }
+    .simple{
+        flex-direction: column;
+        width:350px;
+        height: 200px;
+        margin-bottom:850px;
+    }
+    .group{
+        margin-top: 20px;
     }
     .hotel{
         flex-direction: column;
@@ -415,9 +497,7 @@ margin-left: 550px;
     .foot{
         margin-left: 50px;
     }
-    footer{
-        
-    }
-}
+}  
+   
 
 
